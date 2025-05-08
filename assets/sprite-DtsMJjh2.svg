@@ -11,12 +11,22 @@
 <path stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="4" stroke-width="3.5556" d="M30.222 30.222l-28.444-28.444M30.222 1.778l-28.444 28.444"></path>
   </symbol>
 
-<symbol id="icon-accordeon-up" viewBox="0 0 50 32">
-<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="7.1111" d="M3.556 26.667l21.333-21.333 21.333 21.333"></path>
+
+<!-- <symbol id="icon-accordeon-up" viewBox="0 0 32 32">
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.6667" d="M8 20l8-8 8 8"></path>
 </symbol>
-<symbol id="icon-accordeon-down" viewBox="0 0 50 32">
+<symbol id="icon-accordeon-down" viewBox="0 0 32 32">
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.6667" d="M24 12l-8 8-8-8"></path>
+</symbol> -->
+<symbol id="icon-accord-down" viewBox="0 0 50 32">
 <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="7.1111" d="M3.556 5.333l21.333 21.333 21.333-21.333"></path>
 </symbol>
+<symbol id="icon-accord-up" viewBox="0 0 50 32">
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="7.1111" d="M3.556 26.667l21.333-21.333 21.333 21.333"></path>
+</symbol>
+ <symbol id="icon-faq" viewBox="0 0 20 20" fill="none">
+    <path d="M15 7.5L10 12.5L5 7.5" stroke="#FAFAFA" stroke-width="2"/>
+  </symbol>
 <symbol id="icon-swiper-right" viewBox="0 0 27 32">
 <path stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="0.9143" d="M0.457 30.88v-30.089l26.057 15.045-26.057 15.045z"></path>
 </symbol>
