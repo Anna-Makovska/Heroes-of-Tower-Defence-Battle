@@ -1,24 +1,20 @@
-.reviews-container{
+.swiper-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 24px;
-    width: 320px;
-    height: auto;
-    background: url(../img/);
-    
-}
-.cards-wrapper{
-  display: flex;
-  flex-direction: row;
-    justify-content: center; /* Центрує картки */
-    gap: 24px; /* Відстань між картками */
+  width: 320px;
+  height: auto;
+  background: url(../img/);
 }
 
-.review-card {
+.swiper-wrapper {
+  display: flex;
+}
+
+.swiper-review-card {
   overflow: hidden;
-  // flex-direction: row;
   max-width: 280px;
   display: flex;
   width: 280px;
@@ -29,18 +25,21 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   position: relative;
 }
-.picture-reviews{
-    display: block;
-     width: 130px;
+
+.swiper-picture-reviews {
+  display: block;
+  width: 130px;
   height: 130px;
+object-fit: cover;
   position: absolute;
-  left: 50%;
+  left: 100%;
   top: -83px;
-  transform: translateX(-50%); /* Центрує по горизонталі */
+  transform: translateX(-50%);
   border-radius: 100%;
   border: rgba(0, 36, 52, 0.8);
 }
-.image-container {
+
+.swiper-image-container {
   display: flex;
   flex-direction: row;
   width: 130px;
@@ -48,41 +47,62 @@
   overflow: hidden;
 }
 
-.image-container img {
+.swiper-image-container img {
   width: 130px;
   height: 130px;
 }
 
-.review-content {
+.swiper-review-content {
   padding: 10px;
 }
 
-.reviewer-name {
+.swiper-reviewer-name {
   text-align: center;
- font-weight: 400;
-font-size: 16px;
-line-height: 1.4;
-color: #fff;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.4;
+  color: #fff;
 }
 
-.star-rating {
+.swiper-star-rating {
   text-align: center;
   color: gold;
   margin: 5px 0;
 }
 
-.review-text {
-font-weight: 400;
-font-size: 16px;
-line-height: 1.4;
-color: #fff;
-align-items: center;
+.swiper-review-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.4;
+  color: #fff;
+  align-items: center;
 }
-.reviews-title{
-    margin-bottom: 37px;
-}
-.navigation-container {
+
+/* **Мобільна версія 320px** */
+@media (max-width: 768px) {
+  .swiper-slide {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .swiper-button-prev,
+  .swiper-button-next {
+    position: relative;
     display: flex;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 16px;
+  }
+}
+
+/* **1200px - три картки, кнопки по боках** */
+@media (min-width: 1200px) {
+  .swiper-button-prev,
+  .swiper-button-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
 }
