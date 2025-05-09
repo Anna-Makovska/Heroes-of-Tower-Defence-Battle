@@ -1,0 +1,135 @@
+// mobile styles
+.footer {
+  min-width: 320px;
+  max-width: 375px;
+  height: 413px;
+  background: url('../img/footermobile@1x.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 0 auto;
+  text-align: center;
+}
+@media (min-resolution: 2dppx) {
+  .footer {
+    background: url('../img/footermobile@2x.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+    text-align: center;
+  }
+}
+// .container {
+//   min-width: 320px;
+//   max-width: 375px;
+//   padding: 0;
+//   margin: 0 auto;
+// }
+.footer-title {
+  text-align: center;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 1.4;
+  color: #002434;
+  max-width: 320px;
+  height: 98px;
+  margin-top: 98px;
+}
+.footer-span {
+  font-family: 'Bangers', sans-serif;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 1.1;
+  color: #002434;
+}
+.footer-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 24px;
+}
+.footer-link {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.4;
+  color: #fff;
+  margin-bottom: 16px;
+}
+.opshen {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.4;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 24px;
+  margin-top: 16px;
+}
+.footer-container {
+  width: 100%;
+  min-width: 320px;
+  max-width: 375px;
+  height: 413px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 0;
+}
+@media only screen and (max-width: 1199px) {
+  .opshen-span {
+    display: block;
+  }
+}
+
+// desktop styles
+@media only screen and (min-width: 1200px) {
+  .footer {
+    max-width: 1200px;
+    height: 294px;
+    background: url('../img/spare parts for the machine01.png'),
+      url('../img/spare parts for the machine02.png'),
+      url('../img/spare parts for the machine03.png'),
+      url('../img/place for tower@1x.png'), url('../img/Footer@1x.png');
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+    background-size: 48px 57px, 49px 58px, 48px 57px, 132px 72px, cover;
+    background-position: bottom 2px right 200px, bottom 16px right 179px,
+      bottom 0 right 12px, bottom 30px left 126px, top 0 left 0;
+  }
+  
+
+  .footer-title {
+    font-size: 60px;
+    max-width: 1200px;
+    height: 106px;
+    margin-top: 77px;
+  }
+  .footer-span {
+    font-size: 96px;
+  }
+  .footer-list {
+    flex-direction: row;
+    gap: 24px;
+  }
+
+  .footer-container {
+    width: 1200px;
+    height: 294px;
+    max-width: 1200px;
+    padding: 0 ;
+  }
+}
+
+@media only screen and (min-width: 1200px) and (min-resolution: 2dppx) {
+  .footer {
+    background: url('../img/spare parts for the machine01@2x.png'),
+      url('../img/spare parts for the machine02@2x.png'),
+      url('../img/spare parts for the machine03@2x.png'),
+      url('../img/place for tower 2x.png'), url('../img/Footer@2x.png');
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+    background-size: 48px 57px, 49px 58px, 48px 57px, 132px 72px, cover;
+    background-position: bottom 2px right 200px, bottom 16px right 179px,
+      bottom 0 right 12px, bottom 30px left 126px, top 0 left 0;
+  }
+}

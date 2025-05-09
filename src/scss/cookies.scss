@@ -1,0 +1,103 @@
+.cookies-container{
+    width: 288px;
+    padding: 0 16px;
+    display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 16px;
+}
+.icon-cookies{
+  stroke-width: 2px;
+  stroke: #fff;
+  width: 20px;
+  height: 20px;
+  margin-bottom: -4px;
+}
+.cookies-link-back {
+    display: block;
+align-items: center;
+text-align: left;
+font-weight: 400;
+font-size: 20px;
+line-height: 2;
+color: #fff;
+}
+.cookies-title {
+    font-weight: 500;
+  font-size: 32px;
+  line-height: 1.4;
+  color: #fff;
+}
+.cookies-data {
+    font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.4;
+  color: #fff;
+  width: 288px;
+  margin-bottom: 16px;
+}
+.cookies-text {
+    font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.4;
+  color: #fff;
+  width: 288px;
+}
+.cookies-paragra {
+    width: 288px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.4;
+  color: #fff;
+  margin-bottom: 8px;
+}
+.cookies-list {
+     display: flex;
+  flex-direction: column;
+}
+.cookies-item::before {
+    content: '•';
+  color: #fff;
+  font-weight: 700;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.4;
+  color: #fff;
+  width: 288px;
+}
+@media only screen and (min-width: 1200px){
+    .cookies-container {
+        width: 1200px;
+  padding: 0 40px;
+}
+.cookies-link-back {
+    line-height: 1.4;
+}
+.cookies-title {
+    font-size: 60px;
+white-space: nowrap;
+}
+.cookies-data {
+    width: 1120px;
+  font-size: 20px;
+  margin-bottom: 24px;
+}
+.cookies-text {
+     width: 1120px;
+  font-size: 20px;
+}
+.cookies-paragra {
+    width: 1120px;
+  font-size: 36px;
+}
+.cookies-list {
+    width: 1120px;
+}
+.cookies-item::before {
+     width: 1120px;
+  font-size: 22px;
+}
+}

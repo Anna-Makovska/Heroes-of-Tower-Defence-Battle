@@ -1,0 +1,181 @@
+.upgrade-section {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.upgrade-container {
+    padding: 0;
+    position: relative;
+    height: 995px;
+    max-width: 320px;
+    
+
+background-image: 
+url("../img/heroUpdateTree/Title-mob.png"),
+
+url("../img/heroUpdateTree/Lightning-ring-mob.png"),
+
+
+url("../img/heroUpdateTree/sword-yellow-mob.png"),
+url("../img/heroUpdateTree/sword-green-mob.png"),
+
+
+
+url("../img/heroUpdateTree/blur-small-mob.png"),
+url("../img/heroUpdateTree/blur-small-mob.png"),
+url("../img/heroUpdateTree/blur-big-mob.png");
+
+    background-repeat: no-repeat;
+    background-size: auto;
+
+
+    background-position: 
+
+top 0px left 0px,
+top 290px left 0px,
+  
+ top 645px left 0px,
+ top 680px right 0px,
+
+
+top 790px right -5px,
+top 715px left 0px,
+top 460px left 0px;
+
+
+}
+
+
+.upgrade-title {
+    font-weight: 400;
+font-size: 24px;
+line-height: 140%;
+margin-bottom: 46px;
+text-align: center;
+padding-top: 22px;
+}
+.hero-upgrade-span {
+    font-weight: 400;
+font-size: 36px;
+line-height: 110%;
+font-family: "Bangers";
+}
+.upgrade-subtitle {
+    font-weight: 400;
+font-size: 18px;
+line-height: 140%;
+background-color: rgba(37, 63, 88, 0.8);
+padding: 16px;
+width: 320px;
+height: 307px;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 66px;
+
+
+
+
+}
+.video-one {
+    position: absolute;
+}
+
+.video-two {
+  position: absolute;
+  top: 800px;
+  right: 0px;
+  z-index: 990; 
+}
+
+.video-three {
+  position: absolute;
+  top: 720px; 
+  left: 0px; 
+  z-index: 900;
+}
+
+@media (min-width: 1200px) {
+    .upgrade-container {
+        min-width: 1200px;
+        height: 1266px;
+
+
+background-image: 
+url("../img/heroUpdateTree/Title-desk.png"),
+
+
+
+url("../img/heroUpdateTree/sword-yellow-desk.png"),
+url("../img/heroUpdateTree/sword-green-desk.png"),
+url("../img/heroUpdateTree/Lightning-ring-desk.png"),
+
+
+url("../img/heroUpdateTree/blur-big-desk.png"),
+url("../img/heroUpdateTree/blur-small-desk.png"),
+url("../img/heroUpdateTree/blur-small-desk.png"),
+;
+
+
+
+background-position: top 0px left 0px,
+
+top 400px left -10px,
+top 510px left 860px,
+
+
+top 0px left 0px,
+
+
+top 300px left 220px,
+top 735px left 85px,
+top 845px left 480px;
+
+
+
+
+    }
+    .upgrade-title {
+        font-weight: 400;
+font-size: 36px;
+line-height: 140%;
+margin-bottom: 49px;
+    }
+    .hero-upgrade-span {
+font-weight: 400;
+font-size: 48px;
+line-height: 110%;
+margin-bottom: 88px;
+
+    }
+    .upgrade-subtitle {
+ font-weight: 400;
+font-size: 20px;
+line-height: 140%;
+padding: 16px;
+width: 676px;
+height: 182px;
+
+ 
+}
+.video-one {
+    width: 644px;
+    height: 340px;
+    top: 350px;
+    left: 262px;
+}
+.video-three {
+    width: 497px;
+    height: 248px;
+    top: 750px;
+    left: 100px;
+
+}
+.video-two {
+    width: 497px;
+    height: 248px;
+    top: 860px;
+    left: 500px;
+
+}
+
+}

@@ -1,0 +1,167 @@
+.faq-section {
+    padding-top: 0;
+    // padding-bottom: 0;
+}
+.faq-container {
+  margin: 0 auto;
+  max-width: 320px;
+  min-height: 600px;
+  padding: 0;
+  background-image: url("../img/FAQ/Title-mob.png"),
+  url("../img/FAQ/thing-mob.png"),
+  url("../img/FAQ/tumbleweed-mob.png"),
+  url("../img/FAQ/bg-mob.png");
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: 
+  top 0px left 0px,
+  top 450px left 205px,
+  top 490px left 10px,
+  top 320px left 0px;
+}
+
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+}
+
+[data-accordion-item][data-active="true"] [data-accordion-content] {
+  width: 272px;
+  height: 163px;
+}
+
+[data-accordion-item][data-active="true"] .accordion-header {
+  margin-bottom: 16px;
+}
+.accordion {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  background: rgba(37, 63, 88, 0.8);
+  padding: 16px;
+  margin-bottom: 90px;
+}
+
+.accordion-item {
+  border-bottom: 1px solid #fff;
+  padding: 0px 0px 16px 0px;
+  
+}
+
+.accordion-header {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 140%;
+  color: white;
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  text-align: start;
+  display: flex;
+  align-items: center;
+  
+}
+
+.faq-title {
+  padding-top: 22px;
+  margin-bottom: 46px;
+  text-align: center;
+  font-weight: 400;
+font-size: 24px;
+line-height: 140%;
+}
+.faq-span {
+    font-weight: 400;
+font-size: 36px;
+font-family: "Bangers"; 
+line-height: 110%;
+}
+
+.icon-accordeon-first,
+.icon-accordeon-third,
+.icon-accordeon-fourth {
+  fill: white;
+   flex-shrink: 0;
+  margin-left: 20px;
+}
+.icon-accordeon-second {
+    fill: white;
+   flex-shrink: 0;
+  margin-left: 83px;
+}
+ 
+
+@media (min-width: 1200px) {
+  .faq-container {
+    max-width: 1200px;
+height: 645px;
+    background-image: 
+    url("../img/FAQ/Title-desk.png"),
+    url("../img/FAQ/tumbleweed-desk.png"),
+    url("../img/FAQ/car-desk.png"),
+    url("../img/FAQ/bg-desk.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: 
+    top 0px left 0px,
+    top 470px left 0px,
+    top 290px left 890px,
+    top 100px left 0px;
+  }
+  .accordion-item {
+    border-bottom: 1px solid #fff;
+padding: 0px 0px 16px 0px;
+width: 596px;
+margin-bottom: 16px;
+  }
+  .accordion {
+    margin: 0 auto;
+   width: 644px;
+  }
+  .accordion-header {
+    font-weight: 500;
+font-size: 22px;
+
+line-height: 140%;
+  }
+  .accordion-content {
+    font-weight: 400;
+font-size: 18px;
+line-height: 140%;
+  }
+  [data-accordion-item][data-active="true"] [data-accordion-content] {
+  width: 596px;
+height: 113px;
+}
+.faq-title {
+  font-weight: 400;
+font-size: 36px; 
+line-height: 140%;
+margin-bottom: 135px;
+
+}
+.faq-span {
+  font-weight: 400;
+font-size: 48px;
+line-height: 110%;
+}
+.icon-accordeon-first {
+  margin-left: 298px;
+
+}
+.icon-accordeon-second {
+  margin-left: 373px;
+}
+.icon-accordeon-third {
+  margin-left: 110px;
+}
+.icon-accordeon-fourth {
+  margin-left: 157px;
+}
+}
+

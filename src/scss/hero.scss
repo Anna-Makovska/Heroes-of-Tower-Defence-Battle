@@ -1,0 +1,258 @@
+
+.hero-section {
+  padding-top: 0;
+  padding-bottom: 0;
+  
+}
+
+
+
+.hero-container {
+  
+  max-width: 320px;
+  min-height: 384px;
+  margin: 0 auto;
+  width: 100%;
+padding: 0;
+  background-image: 
+ 
+     url("../img/hero/sandstorm-BG-mob.png"),
+   url('../img/hero/sandstorm-BG-blur-mob.png');
+  background-position: 
+  
+   top,
+  center;
+   
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat,no-repeat, no-repeat;
+  background-size:  100% 40%, 100% 100%;
+  
+}
+
+@keyframes glow {
+  0%, 100% { box-shadow: none; }
+  50% { box-shadow: 0 0 20px rgba(55, 109, 235, 0.8); }
+}
+
+.hero-container {
+  animation: glow 2s infinite alternate;
+}
+
+.hero-content-container {
+background-image:  url("../img/hero/hero-mob.png"),
+  
+  url("../img/hero/RED-LIGHTNING-mob.png"), 
+  url("../img/hero/stroke-mob.png"),
+
+    url('../img/hero/bg-sandstorm-mob.png'),
+
+
+  url('../img/hero/lightning-ring-mob.png'), 
+  url('../img/hero/tower-red-mob.png'), 
+  url('../img/hero/tower-yellow-mob.png'),
+   url("../img/hero/tumbleweed01-mob.png"),
+    url('../img/hero/tumbleweed02-mob.png');
+    background-position: 
+    top 0px left 95px,
+  
+  top 77px left 163.08px , 
+   top 122px left 4px,
+
+   top 118px left 0px,
+
+  top 29.07px left 46.67px , 
+  top 45.07px left 211.47px , 
+  top 36px left 47.73px ,
+   top 66.4px left 18.13px , 
+   top 66.4px left 286.13px;
+
+background-repeat: no-repeat;
+background-size: auto;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+
+.hero-title {
+ padding-top: 128px;
+ justify-content: center;
+ font-weight: 500;
+font-size: 32px;
+line-height: 140%;
+margin-bottom: 8px;
+ border: none;
+    text-align: center;
+      transition: background-color 1.5s ease-in-out, border 1.5s ease-in-out, transform 1.5s ease-in-out;
+}
+.hero-title-span {
+  font-size: 48px;
+line-height: 110%;
+font-family: "Bangers", sans-serif;
+}
+.hero-subtitle {
+  font-size: 18px;
+  margin-bottom: 16px;
+  
+
+}
+
+.hero-button {
+  width: 240px;
+  height: 44px;
+  text-align: center;
+  margin-bottom: 12px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+    background-color: #376deb;
+color:white;
+border: none;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.hero-button:active {
+  background-color: #39b4f7;
+  border: 1.09px solid #376deb;
+ transform: scale(1.1);
+
+}
+@keyframes glow {
+  0%, 100% {
+    box-shadow: 0 0 10px rgba(55, 109, 235, 0.6);
+  }
+  50% {
+    box-shadow: 0 0 20px rgba(55, 109, 235, 1);
+  }
+}
+
+.hero-button {
+  
+  width: 240px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 4px;
+  background-color: #376deb;
+  color: white;
+  
+  font-weight: 400;
+font-size: 20px;
+line-height: 140%;
+  transition: all 0.3s ease;
+  position: relative;
+  
+  animation: glow 2s infinite alternate;
+}
+
+.hero-button:hover {
+  box-shadow: 0 0 30px rgba(55, 109, 235, 1);
+  transform: scale(1.05);
+}
+
+
+
+
+@media (min-width: 1200px) {
+  
+  .hero-container {
+   min-height: 720px;
+    max-width: 1200px;
+    overflow-y: visible;
+  background-image: 
+  
+   url("../img/hero/sandstorm-BG-desk.png"),
+    url("../img/hero/sandstorm-BG-blur-desk.jpg"); 
+
+  background-position:
+  
+  top,
+  center;
+
+  background-size: auto, auto;
+
+
+   
+  }
+  .hero-content-container {
+    background-image: url("../img/hero/hero-desk.png"),
+  url("../img/hero/RED-LIGHTNING-desk.png"), 
+url("../img/hero/stroke-desk.png"),
+url("../img/hero/bg-sandstorm-desk.png"),
+  url('../img/hero/lightning-ring-desk.png'), 
+  url('../img/hero/tower-red-desk.png'), 
+  url('../img/hero/tower-yellow-desk.png'), 
+  url("../img/hero/tumbleweed01-desk.png"), 
+  url('../img/hero/tumbleweed02-desk.png');
+background-position: top 0px left 354px,
+  top 279.96px left 611.79px,
+  top 440px left 0px,
+  top 435px left -3px,
+  
+  top 100px left 175px,
+  top 160px left 793.07px,
+  top 126px left 179px,
+  top 240px left 68px,
+  top 240px left 1073px;
+  background-size: auto;
+  }
+  
+  
+  .hero-title {
+    padding-top: 440px;
+    font-size: 60px;
+    margin-bottom: 0;
+  }
+  .hero-title-span {
+    font-size: 96px;
+  }
+  .hero-subtitle {
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 26px;
+  }
+  .hero-button {
+    margin-top: 0;
+    margin-bottom: 26px;
+
+  }
+
+  @keyframes glow {
+  0%, 100% {
+    box-shadow: 0 0 10px rgba(55, 109, 235, 0.6);
+  }
+  50% {
+    box-shadow: 0 0 20px rgba(55, 109, 235, 1);
+  }
+}
+
+.hero-button {
+  
+  width: 240px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 4px;
+  background-color: #376deb;
+  color: white;
+  
+  font-weight: 400;
+font-size: 20px;
+line-height: 140%;
+  transition: all 0.3s ease;
+  position: relative;
+  
+  animation: glow 2s infinite alternate;
+}
+
+.hero-button:hover {
+  box-shadow: 0 0 30px rgba(55, 109, 235, 1);
+  transform: scale(1.05);
+}
+  
+}
