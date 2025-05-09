@@ -1,0 +1,58 @@
+.reviews-container{
+    width: 320px;
+    height: auto;
+    background: url(../img/);
+    
+}
+.review-card {
+  width: 280px;
+  height: 338px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  overflow: visible;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+.picture-reviews{
+    display: block;
+     width: 130px;
+  height: 130px;
+  position: absolute;
+  left: 50%;
+  top: -83px;
+  transform: translateX(-50%); /* Центрує по горизонталі */
+  border-radius: 100%;
+  border: rgba(0, 36, 52, 0.8);
+}
+.image-container {
+  width: 130px;
+  height: 40%;
+  overflow: hidden;
+}
+
+.image-container img {
+  width: 130px;
+  height: 130px;
+}
+
+.review-content {
+  padding: 10px;
+}
+
+.reviewer-name {
+  font-size: 1.2em;
+  margin: 0;
+}
+
+.star-rating {
+  color: gold;
+  margin: 5px 0;
+}
+
+.review-text {
+  font-size: 1em;
+  color: #333;
+}
+.reviews-title{
+    margin-bottom: 37px;
+}
