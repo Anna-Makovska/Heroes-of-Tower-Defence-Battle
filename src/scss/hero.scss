@@ -34,8 +34,39 @@ padding: 0;
 }
 
 .hero-container {
-  animation: glow 2s infinite alternate;
+  animation: glow 5s infinite alternate;
 }
+
+
+@keyframes flash-lightning {
+  0%, 100% {
+    filter: brightness(1);
+    opacity: 1;
+  }
+  10% {
+    filter: brightness(3);
+    opacity: 0.8;
+  }
+  20% {
+    filter: brightness(0.6);
+    opacity: 0.6;
+  }
+  30% {
+    filter: brightness(2);
+    opacity: 0.9;
+  }
+  40%, 90% {
+    filter: brightness(1);
+    opacity: 1;
+  }
+}
+
+.hero-content-container {
+  animation: flash-lightning 4s  ease-in-out;
+}
+
+
+
 
 .hero-content-container {
 background-image:  url("../img/hero/hero-mob.png"),
@@ -74,6 +105,23 @@ background-size: auto;
   justify-content: center;
   text-align: center;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 .hero-title {
@@ -178,6 +226,7 @@ line-height: 140%;
    
   }
   .hero-content-container {
+
     background-image: url("../img/hero/hero-desk.png"),
   url("../img/hero/RED-LIGHTNING-desk.png"), 
 url("../img/hero/stroke-desk.png"),
@@ -199,6 +248,10 @@ background-position: top 0px left 354px,
   top 240px left 1073px;
   background-size: auto;
   }
+
+
+
+
   
   
   .hero-title {

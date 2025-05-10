@@ -1,19 +1,38 @@
 
 document.addEventListener('DOMContentLoaded', function () {
+  const openBtn = document.querySelector('[data-open-btn]');
+  const closeBtn = document.querySelector('[data-close-btn]');
   const mobileMenu = document.querySelector('[data-mobile-menu]');
-  const openMenuBtn = document.querySelector('[data-open-btn]');
-  const closeMenuBtn = document.querySelector('[data-close-btn]');
+  const linksToClose = document.querySelectorAll('[data-close-on-click]');
+  const body = document.body;
 
-  if (openMenuBtn && closeMenuBtn && mobileMenu) {
-    openMenuBtn.addEventListener('click', function () {
-      mobileMenu.setAttribute('data-menu-open', 'true');
-    });
+  openBtn?.addEventListener('click', () => {
+    mobileMenu?.setAttribute('data-menu-open', 'true');
+    body?.setAttribute('data-modal-open', 'true');
 
-    closeMenuBtn.addEventListener('click', function () {
-      mobileMenu.removeAttribute('data-menu-open');
+    openBtn.style.display = 'none';
+    closeBtn.style.display = 'block';
+  });
+
+  closeBtn?.addEventListener('click', () => {
+    mobileMenu?.removeAttribute('data-menu-open');
+    body?.removeAttribute('data-modal-open');
+
+    openBtn.style.display = 'block';
+    closeBtn.style.display = 'none';
+  });
+
+  linksToClose.forEach(link => {
+    link.addEventListener('click', () => {
+      mobileMenu?.removeAttribute('data-menu-open');
+      body?.removeAttribute('data-modal-open');
+      openBtn.style.display = 'block';
+      closeBtn.style.display = 'none';
     });
-  }
+  });
 });
+
+
 
 document.addEventListener('DOMContentLoaded', function () {
   const modal = document.querySelector('[data-modal-window="true"]');
@@ -38,38 +57,6 @@ document.addEventListener('DOMContentLoaded', function () {
     modal.removeAttribute('data-modal-open');
   });
 });
-
-
-
-
-document.addEventListener('DOMContentLoaded', function () {
-  const openBtn = document.querySelector('[data-open-btn]');
-  const closeBtn = document.querySelector('[data-close-btn]');
-  const mobileMenu = document.querySelector('[data-mobile-menu]');
-  const linksToClose = document.querySelectorAll('[data-close-on-click]');
-  const body = document.querySelector('[data-body]');
-
-  openBtn?.addEventListener('click', () => {
-    mobileMenu?.setAttribute('data-menu-open', 'true');
-    body?.setAttribute('data-modal-open', 'true');
-  });
-
-  closeBtn?.addEventListener('click', () => {
-    mobileMenu?.removeAttribute('data-menu-open');
-    body?.removeAttribute('data-modal-open');
-  });
-
-  linksToClose.forEach(link => {
-    link.addEventListener('click', () => {
-      mobileMenu?.removeAttribute('data-menu-open');
-      body?.removeAttribute('data-modal-open');
-    });
-  });
-});
-
-
-
-
 
 
 
