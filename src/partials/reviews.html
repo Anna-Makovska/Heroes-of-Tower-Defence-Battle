@@ -1,14 +1,16 @@
 <section id="user-feedback" class="swiper-testimonials">
-  <div class="swiper-container">
-    <h2><span>R</span>eviews</h2>
+  <div class="container swiper-container">
+    <h2><span class="reviews-span">R</span>eviews</h2>
     <div class="swiper reviews-swiper">
-      <div class="swiper-wrapper">
+      <div class="swiper-wrapperg">
         <div class="swiper-slide swiper-review-card">
           <div class="swiper-image-container">
             <img
               class="swiper-picture-reviews"
               src="../img/revievs/photo01.jpg"
-              alt="Фото користувача"
+              alt="user1"
+              width="130"
+              height="130"
             />
           </div>
           <div class="swiper-review-content">
@@ -26,6 +28,8 @@
               class="swiper-picture-reviews"
               src="../img/revievs/photo02.jpg"
               alt="Фото користувача"
+              width="130"
+              height="130"
             />
           </div>
           <div class="swiper-review-content">
@@ -43,6 +47,8 @@
               class="swiper-picture-reviews"
               src="../img/revievs/photo03.jpg"
               alt="Фото користувача"
+              width="130"
+              height="130"
             />
           </div>
           <div class="swiper-review-content">
@@ -54,12 +60,14 @@
             </p>
           </div>
         </div>
-         <div class="swiper-slide swiper-review-card">
+        <div class="swiper-slide swiper-review-card">
           <div class="swiper-image-container">
             <img
               class="swiper-picture-reviews"
               src="../img/revievs/photo04.jpg"
               alt="Фото користувача"
+              width="130"
+              height="130"
             />
           </div>
           <div class="swiper-review-content">
@@ -71,12 +79,14 @@
             </p>
           </div>
         </div>
-         <div class="swiper-slide swiper-review-card">
+        <div class="swiper-slide swiper-review-card">
           <div class="swiper-image-container">
             <img
               class="swiper-picture-reviews"
               src="../img/revievs/photo05.jpg"
-              alt="Фото користувача"
+              alt="user 1"
+              width="130"
+              height="130"
             />
           </div>
           <div class="swiper-review-content">
@@ -88,12 +98,20 @@
             </p>
           </div>
         </div>
-        <!-- Додай решту карток -->
       </div>
-      <div class="swiper-button-prev">
-        
-      </div>
-      <div class="swiper-button-next"></div>
+    </div>
+    </div>
+    <div class="reviews-arrows">
+      <button class="reviews-arrows-prev" title="Previous Review">
+        <svg class="reviews-arrows-icon" width="30" height="35">
+          <use href="/img/sprite.svg#icon-swiper-left"></use>
+        </svg>
+      </button>
+      <button class="reviews-arrows-next" title="Next Review">
+        <svg class="reviews-arrows-icon" width="30" height="35">
+          <use href="/img/sprite.svg#icon-swiper-right"></use>
+        </svg>
+      </button>
     </div>
   </div>
 </section>
