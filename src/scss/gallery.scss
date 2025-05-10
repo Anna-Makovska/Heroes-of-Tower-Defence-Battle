@@ -29,7 +29,7 @@ color: #fff;
   justify-content: center;
   align-items: center;
   gap: 8px;
-  margin-top: 8px; /* Відступ вниз під слайдом */
+  margin-top: 8px; 
 }
 
 .left-btn, .right-btn {
@@ -48,7 +48,7 @@ stroke-width: 1px;
 stroke: rgba(55, 109, 235, 0.3);
 }
 .left-btn {
-  margin-right: 16px; /* Відступ між кнопками */
+  margin-right: 16px; 
 }
 
 .right-btn {
@@ -74,118 +74,9 @@ stroke: rgba(55, 109, 235, 0.3);
  
 }
 
-// @media (min-width: 1200px){
-//   .gallery-section {
-//     position: relative;
-//   }
-//   .gallery-container{
-//     width: 1200px;
-    
-    
-//     background: url(../img/heroUpdateTree/Title-desk.png);
-//     background-repeat: no-repeat;
-//     background-size: auto;
-//     padding-left: 100px;
-//     padding-right: 100px;
-//   }
-//   .title-gallery{
-//     font-size: 36px;
-//   }
-//   .left-btn {
-//     position: absolute;
-//     top: 50%;
-//     left: 24px;
-//   }
-//   .image-container{
-//     width: 1120px;
-//     height: auto;
-//     display: flex;
-// align-items: center;
-// justify-content: center;
-// flex-direction: row;
-// gap: 24px;
-// width: 1120px;
-// height: auto;
-// justify-content: center;
-// text-align: center;
-// margin: 0 auto;
-
-//   }
-//   .navigation-container{
-//     position: absolute;
-//     top: 50%;
-//     left: 0;
-//     width: 100%;
-//     justify-content: space-between;
-//     padding: 0;
-//     margin:0;
-//     transform: translateY(-50%);
-//     z-index: 10;
-//   }
-//   .left-btn,
-//   .right-btn {
-//     position: static; 
-//   }
-//   .swiper {
-//   width: 100%;
-//   overflow: hidden;
-// }
-
-// .swiper-wrapper {
-//   display: flex;
-// }
-
-// .swiper-slide {
-//   flex-shrink: 0;
-//   width: 50%; /* буде переписано Swiper'ом при breakpoints */
-//   box-sizing: border-box;
-//   display: flex;
-//   justify-content: flex-start; /* центрірування зображень */
-//   align-items: flex-start;
-//   width: 498px;
-//   height: 484px;
-// }
-
-// .image-container {
-//   display: flex;
-//   flex-direction: column;
-//   gap: 16px;
-//   width: 100%;
-//   max-width: 500px;
-//   margin: 0;
-// }
-// .swiper-slide {
-//   margin: 0;
-// }
-
-// picture img {
-//   width: 100%;
-//   height: auto;
-//   display: block;
-//   object-fit: cover;
-// }
-// .image-top {
-//  position: absolute;
-//  top: 46px;
-//  left: 0px;
- 
-// }
-// .image-bottom {
-//   padding-top: 260px;
-  
-// }
-// .gallery-span {
-//   font-weight: 400;
-// font-size: 48px;
-// line-height: 110%;
-// }
-// #gallery-style {
-//   padding: 0px;
-// }
-// }
 @media (min-width: 1200px) {
   .gallery-section {
-    position: relative; /* Важливо для позиціонування кнопок */
+    position: relative; 
     
   }
 
@@ -194,12 +85,14 @@ stroke: rgba(55, 109, 235, 0.3);
     background: url(../img/heroUpdateTree/Title-desk.png);
     background-repeat: no-repeat;
     background-size: auto;
+    background-position: top 65px left 0px;
     padding-left: 100px;
     padding-right: 100px;
   }
 
   .title-gallery {
     font-size: 36px;
+    padding-top: 76px;
   }
 
   .navigation-container {
@@ -208,8 +101,7 @@ stroke: rgba(55, 109, 235, 0.3);
     top: 370px;
     left: 0px;
     width: 100%;
-    // justify-content: space-between;
-    // padding: 0 300px;
+    
     margin: 0;
     transform: translateY(-50%);
     z-index: 10;

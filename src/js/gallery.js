@@ -2,7 +2,7 @@ import Swiper from 'swiper/bundle';
 import 'swiper/css/bundle';
 
 document.addEventListener('DOMContentLoaded', function () {
-  const swiper = new Swiper('.swiper', {
+  const swiper = new Swiper('.gallery-swiper', {
     loop: true,
     slidesPerView: 1,
     spaceBetween: 24,
@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function () {
     breakpoints: {
       1200: {
         slidesPerView: 2,
-        // spaceBetween: 24,
+        
       },
     },
   });
