@@ -20,7 +20,6 @@ document.addEventListener('DOMContentLoaded', function () {
     },
   });
 
-  // Переміщуємо вибір кнопок усередину DOM-завантаження
   const prevBtn = document.querySelector('.reviews-arrows-prev');
   const nextBtn = document.querySelector('.reviews-arrows-next');
 
@@ -33,4 +32,4 @@ document.addEventListener('DOMContentLoaded', function () {
 
   prevBtn.addEventListener('click', () => activateButton(prevBtn));
   nextBtn.addEventListener('click', () => activateButton(nextBtn));
-}); // Тут правильно завершуємо основну функцію
+}); 
