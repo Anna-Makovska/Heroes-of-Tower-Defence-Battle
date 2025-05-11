@@ -72,6 +72,9 @@ picture {
 .section {
   padding-top: 22px;
   padding-bottom: 22px;
+   
+    scroll-margin-top: 72px; 
+  
 }
 
 @media only screen and (min-width: 1200px) {
@@ -84,5 +87,11 @@ picture {
   .section {
     padding-top: 50px;
     padding-bottom: 50px;
+    scroll-margin-top: 80px;
   }
 }
+
+
+
+
+

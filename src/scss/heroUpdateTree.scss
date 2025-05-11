@@ -97,7 +97,7 @@ margin-bottom: 66px;
 @media (min-width: 1200px) {
     .upgrade-container {
         min-width: 1200px;
-        height: 1266px;
+        height: 1418px;
 position: relative;
 
 background-image: 
@@ -117,18 +117,19 @@ url("../img/heroUpdateTree/blur-small-desk.png"),
 
 
 
-background-position: top 0px left 0px,
+background-position: 
+top 50px left 0px,
 
-top 400px left -10px,
-top 510px left 860px,
-
-
-top 0px left 0px,
+top 500px left -10px,
+top 610px left 860px,
 
 
-top 300px left 220px,
-top 735px left 85px,
-top 845px left 480px;
+top 100px left 0px,
+
+
+top 410px left 240px,
+top 835px left 85px,
+top 955px left 485px;
 
 
 
@@ -139,6 +140,7 @@ top 845px left 480px;
 font-size: 36px;
 line-height: 140%;
 margin-bottom: 49px;
+padding-top: 76px;
     }
     .hero-upgrade-span {
 font-weight: 400;
@@ -160,20 +162,20 @@ height: 182px;
 .video-one {
     width: 644px;
     height: 340px;
-    top: 350px;
-    left: 262px;
+    top: 450px;
+    left: 280px;
 }
 .video-three {
     width: 497px;
     height: 248px;
-    top: 750px;
+    top: 850px;
     left: 100px;
 
 }
 .video-two {
     width: 497px;
     height: 248px;
-    top: 860px;
+    top: 970px;
     left: 500px;
 
 }
