@@ -40,7 +40,6 @@
   line-height: 1.4;
   color: #fff;
   text-align: center;
-  padding-top: 22px;
   margin-bottom: 44px;
 }
 
@@ -75,7 +74,6 @@
 
 .swiper-review-content {
   padding: 100px 24px 24px 24px;
-  height: 247px;
   background: #002434;
   text-align: center;
   position: relative;
@@ -135,12 +133,6 @@
   cursor: pointer;
   margin-bottom: 24px;
 }
-.reviews-arrows-icon:active {
-  fill: #39b4f7;
-  stroke-width: 1px;
-  stroke: #376deb;
-}
-
 .reviews-arrows-icon {
   fill: #39b4f7;
 stroke-width: 1px;
