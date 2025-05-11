@@ -6,6 +6,7 @@
   background: url(../img/heroUpdateTree/Title-mob.png);
   background-repeat: no-repeat;
   background-size: auto;
+  margin-bottom: 24px;
 }
 .title-gallery {
   font-weight: 400;
@@ -14,7 +15,7 @@
   color: #fff;
   text-align: center;
   padding-top: 8px;
-  margin-bottom: 24px;
+  // margin-bottom: 24px;
 }
 .gallery-span{
   font-family: "Bangers", sans-serif;
@@ -43,9 +44,15 @@ color: #fff;
 }
 #icon-swiper-left,
 #icon-swiper-right{
-    fill: rgba(57, 180, 247, 0.2);
+  fill: rgba(57, 180, 247, 0.2);
+  stroke-width: 1px;
+  stroke: rgba(55, 109, 235, 0.3);
+}
+#icon-swiper-left:active,
+#icon-swiper-right:active{
+  fill: #39b4f7;
 stroke-width: 1px;
-stroke: rgba(55, 109, 235, 0.3);
+stroke: #376deb;
 }
 .left-btn {
   margin-right: 16px; 
