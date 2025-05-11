@@ -26,7 +26,6 @@
   padding-left: 16px;
   padding-right: 16px;
   background-color: rgba(0, 36, 52, 0.8);
- 
 }
 .reviews-wrapper {
   padding-top: 16px;
@@ -70,7 +69,9 @@
 }
 
 .swiper-review-content {
-  padding: 69px 24px 24px 24px;
+  padding: 100px 24px 24px 24px;
+  width: 270px;
+  height: 247px;
   background: #002434;
   text-align: center;
   position: relative;
@@ -131,9 +132,9 @@
 }
 
 .reviews-arrows-icon {
-  fill: rgba(57, 180, 247, 0.5);
-  stroke-width: 1px;
-  stroke: rgba(55, 109, 235, 0.3);
+  fill: #39b4f7;
+stroke-width: 1px;
+stroke: #376deb;
 }
 .swiper-slide-revievs {
   background: rgba(0, 36, 52, 0.8);
@@ -183,13 +184,15 @@ line-height: 110%;
     }
 
   .swiper-reviews-content {
-    width: 1120px;
+    padding: 100px 24px 24px 24px;
+width: 272px;
+height: 247px;
     display: flex;
     gap: 24px;
   }
   .reviews-arrows {
     position: absolute;
-    gap: 1050px;
+    gap: 936px;
     top: 50%;
     left: 0px;
     width: 100%;
