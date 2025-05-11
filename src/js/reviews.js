@@ -14,9 +14,22 @@ document.addEventListener('DOMContentLoaded', function () {
 
     breakpoints: {
       1200: {
-        slidesPerView: 3,
+        slidesPerView: 3.1,
         spaceBetween: 24,
       },
     },
   });
-});
+
+  const prevBtn = document.querySelector('.reviews-arrows-prev');
+  const nextBtn = document.querySelector('.reviews-arrows-next');
+
+  function activateButton(button) {
+    button.classList.add('active');
+    setTimeout(() => {
+      button.classList.remove('active');
+    }, 300);
+  }
+
+  prevBtn.addEventListener('click', () => activateButton(prevBtn));
+  nextBtn.addEventListener('click', () => activateButton(nextBtn));
+}); 

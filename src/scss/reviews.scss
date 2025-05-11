@@ -1,7 +1,10 @@
+
+
 .reviews-section {
   padding-top: 0;
   padding-bottom: 0;
 }
+
 
 .swiper-testimonials {
   width: 320px;
@@ -11,7 +14,7 @@
   background-repeat: no-repeat, no-repeat;
   background-size: auto;
 }
-.swiper-star-rating{
+.swiper-star-rating {
   display: flex;
   flex-direction: row;
   gap: 4px;
@@ -30,14 +33,17 @@
 .reviews-wrapper {
   padding-top: 16px;
 }
- .reviews-title {
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 1.4;
-    color: #fff;
-    text-align: center;
-    margin-bottom: 44px;
-  }
+
+.reviews-title {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.4;
+  color: #fff;
+  text-align: center;
+  padding-top: 22px;
+  margin-bottom: 44px;
+}
+
 
 .reviews-span {
   font-family: 'Bangers', sans-serif;
@@ -64,15 +70,17 @@
   border-radius: 50%;
   width: 130px;
   height: 130px;
- box-shadow: 0 0 15px 10px #0674A4; 
-
+  box-shadow: 0 0 15px 10px #0674a4;
 }
 
 .swiper-review-content {
   padding: 100px 24px 24px 24px;
-  // width: 270px;
+
+  width: 270px;
   height: 247px;
+
   background: #002434;
+ 
   text-align: center;
   position: relative;
 }
@@ -87,7 +95,6 @@
   border: 1px solid #fdb115;
   pointer-events: none;
 }
-
 
 .swiper-reviewer-name {
   font-family: 'Poppins', sans-serif;
@@ -117,6 +124,7 @@
   gap: 34px;
   justify-content: center;
   margin-top: 20px;
+  margin-bottom: 24px;
 }
 
 .reviews-arrows-next,
@@ -129,6 +137,12 @@
   height: 35px;
   opacity: 1;
   cursor: pointer;
+  margin-bottom: 24px;
+}
+.reviews-arrows-icon:active {
+  fill: #39b4f7;
+  stroke-width: 1px;
+  stroke: #376deb;
 }
 
 .reviews-arrows-icon {
@@ -153,12 +167,15 @@ stroke: #376deb;
       url(../img/revievs/bg.png);
     background-repeat: no-repeat, no-repeat;
     background-size: auto;
-    background-position: top 50px left 0px,
-    center;
+    background-position: top 50px left 0px, center;
   }
 
   .swiper-review-card {
     width: 280px !important;
+  }
+  .swiper-review-content {
+    width: 280px;
+    height: 255px;
   }
 
   .swiper-container {
@@ -166,9 +183,9 @@ stroke: #376deb;
     height: auto;
     padding: 16px;
     position: relative;
-    
   }
   .reviews-title {
+
      font-weight: 400;
 font-size: 36px;
       color: #fff;
@@ -182,6 +199,7 @@ font-weight: 400;
 font-size: 48px;
 line-height: 110%;
     }
+
 
   .swiper-reviews-content {
     padding: 100px 24px 24px 24px;
@@ -200,4 +218,3 @@ height: 247px;
     z-index: 10;
   }
 }
-
