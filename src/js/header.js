@@ -1,6 +1,7 @@
 
 
 
+
 document.addEventListener('DOMContentLoaded', function () {
   const openBtn = document.querySelector('[data-open-btn]');
   const closeBtn = document.querySelector('[data-close-btn]');
@@ -57,7 +58,44 @@ document.addEventListener('DOMContentLoaded', function () {
     modal?.removeAttribute('data-modal-open');
     body?.removeAttribute('data-cookie-modal-open');
   });
+
+  function checkWindowSize() {
+    if (window.innerWidth >= 1200) {
+      closeMobileMenu();
+      openBtn.style.display = 'none';
+      closeBtn.style.display = 'none';
+    } else {
+      if (!mobileMenu?.hasAttribute('data-menu-open')) {
+        openBtn.style.display = 'block';
+      }
+    }
+  }
+
+  checkWindowSize();
+
+  window.addEventListener('resize', checkWindowSize);
+
+
+
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
