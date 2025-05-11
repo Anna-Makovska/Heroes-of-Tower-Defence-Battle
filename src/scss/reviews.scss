@@ -1,3 +1,11 @@
+<<<<<<< HEAD
+=======
+.reviews-section {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+>>>>>>> cf0faf9c24815e2e5fc6bb4d640816cc5056e0e2
 .swiper-testimonials {
   width: 320px;
   height: 632px;
@@ -25,6 +33,7 @@
 .reviews-wrapper {
   padding-top: 16px;
 }
+<<<<<<< HEAD
 .reviews-title {
   font-weight: 400;
   font-size: 24px;
@@ -34,6 +43,16 @@
   padding-top: 22px;
   margin-bottom: 44px;
 }
+=======
+ .reviews-title {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.4;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 44px;
+  }
+>>>>>>> cf0faf9c24815e2e5fc6bb4d640816cc5056e0e2
 
 .reviews-span {
   font-family: 'Bangers', sans-serif;
@@ -141,6 +160,7 @@
   background: rgba(0, 36, 52, 0.8);
 }
 @media (min-width: 1200px) {
+  
   div.swiper {
     width: 888px;
   }
@@ -171,6 +191,7 @@
     position: relative;
   }
   .reviews-title {
+<<<<<<< HEAD
     font-weight: 400;
     font-size: 36px;
     color: #fff;
@@ -184,6 +205,21 @@
     font-size: 48px;
     line-height: 1.1;
   }
+=======
+     font-weight: 400;
+font-size: 36px;
+      color: #fff;
+      text-align: center;
+      margin-bottom: 135px;
+      padding-top: 26px;
+    }
+    .reviews-span {
+      font-family: "Bangers";
+font-weight: 400;
+font-size: 48px;
+line-height: 110%;
+    }
+>>>>>>> cf0faf9c24815e2e5fc6bb4d640816cc5056e0e2
 
   .swiper-reviews-content {
     width: 1120px;
