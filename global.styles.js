@@ -6,9 +6,7 @@ const resetStyles = '@import "./src/scss/common/_reset.scss"';
 const styles = [
   variablesStyles,
   breakpointsStyles,
-  //   colorsStyles,
   mixinsStyles,
-  //   baseStyles,
   resetStyles,
 ];
 
